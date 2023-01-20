@@ -20,22 +20,20 @@
   flex-direction: column;
   align-items: center;
 }
-.foto {
-  margin: 10px;
-}
+
 
 h1 {
   color: white;
   font-family: "Roboto Slab", serif;
   font-size: 35px;
-  margin: 3% 12%;
+  margin: 3% 18%;
 }
 
 .nome {
-  margin: 1em 1.5em;
+  margin: 0.5em 1.5em;
 }
 .sou {
-  margin: 1em 1.5em;
+  margin: 0.3em 1.5em;
   font-size: 30px;
 }
 
@@ -55,8 +53,8 @@ hr {
 }
 .conteiner-flex-logo {
   display: flex;
-  margin: 2% 12%;
-  border: red solid;
+  margin: 2% 18%;
+
 }
 .conteiner-c {
   align-items: flex-start;
@@ -70,7 +68,7 @@ hr {
 }
 .contato {
   color: white;
-  margin: 3% 12%;
+  margin: 3% 18%;
   width: auto;
 }
 body,
@@ -84,7 +82,7 @@ body,
 }
 @media screen and (max-width: 1000px) {
   h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .sou {
     font-size: 12px;
@@ -94,5 +92,12 @@ body,
   }
   .conteiner-flex-logo {
     display: block;
+    
+  }
+  .contato{
+    font-size: 13px;
+  }
+  h5{
+    font-size: 13px;
   }
 }
