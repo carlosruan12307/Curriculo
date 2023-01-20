@@ -31,16 +31,27 @@ function App() {
             <i class="fa-brands fa-github  me-2"></i>github.com/carlosruan12307
           </a>
         </section>
-        <section className="conteiner-c mt-5">
+        <section className="conteiner-f">
           <h1>Formacação Acadêmica</h1>
           <div className="conteiner-flex-logo">
-            <img alt="" className="logo-unifor" src={unifor}></img>
+            <img alt="" className="logo-unifor me-3" src={unifor}></img>
             <h5 className="mt-2 text-white">Unifor -&gt; 2019 - Atual</h5>
           </div>
         </section>
       </div>
-      <div className="aprofundado border border-danger">
-        <section className="sobre-min">a</section>
+      <div className="aprofundado border border-secondary">
+        {/* <section className="sobre-min">
+        <h2 className="sobre-min-text">SOBRE MIM</h2>
+        <p >Ola, meu nome é Ruan, e atualmente estou estudando programação e procura de uma oportunidade para conseguir progredir com minha carreira. 
+          
+          Eu comecei a programar sem muito entusiasmo ate conhecer a area de Desenvolvimento Web,
+           que eu me simplesmente amei no primeiro momento. 
+           Desde entao, sempre estou criando algum projeto pessoal para desenvolver minhas habilidades. 
+           Eu sempre gostei de aprender coisas novas, e a area de programação, assim como as diversas tecnologias que estao sendo criadas a todo momento nao poderiam ser o melhor palco para minha curiosidade.</p>
+        </section> */}
+        <section className="Experiencias">
+
+        </section>
       </div>
     </div>
   );

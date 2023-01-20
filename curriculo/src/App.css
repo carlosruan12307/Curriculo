@@ -1,16 +1,18 @@
 .dados {
-  background-color: rgb(48, 32, 139);
-  height: 100vh;
-  width: 25%;
+  background-color: rgb(19, 73, 40);
   height: 100%;
+  width: 20%;
+
   display: flex;
   align-items: center;
+  justify-content: center;
+  
   flex-wrap: nowrap;
   flex-direction: column;
 }
 
 .foto-conteudo {
-  margin: 50px auto;
+  margin: 2% auto;
   width: auto;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -19,6 +21,7 @@
   justify-items: center;
   flex-direction: column;
   align-items: center;
+  
 }
 
 
@@ -29,11 +32,10 @@ h1 {
   margin: 3% 18%;
 }
 
-.nome {
+.nome, .sou {
   margin: 0.5em 1.5em;
 }
 .sou {
-  margin: 0.3em 1.5em;
   font-size: 30px;
 }
 
@@ -42,7 +44,7 @@ hr {
   border: 2px solid rgb(0, 0, 0);
 }
 .aprofundado {
-  width: 100%;
+ 
 }
 .logo-unifor {
   margin: 10px 0px;
@@ -51,11 +53,13 @@ hr {
   background-color: white;
   border-radius: 12px;
 }
-.conteiner-flex-logo {
-  display: flex;
-  margin: 2% 18%;
 
+.main{
+border: solid blue;
+height: 100vh;
+width: 100%;
 }
+
 .conteiner-c {
   align-items: flex-start;
   display: inline-flex;
@@ -66,23 +70,37 @@ hr {
   word-wrap: break-word;
   word-break: break-word;
 }
+.conteiner-flex-logo{
+  margin: 0px 18%;
+}
+.conteiner-f{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: solid red;
+  
+
+}
 .contato {
   color: white;
   margin: 3% 18%;
   width: auto;
 }
-body,
+
+
 #root {
   margin: 0px;
+  width: 100%;
+  height: 100vh;
 }
 
-.user {
-  height: 400px;
-  width: 300px;
-}
+
 @media screen and (max-width: 1000px) {
   h1 {
     font-size: 15px;
+  }
+  .nome{
+    font-size: 12px;
   }
   .sou {
     font-size: 12px;
@@ -93,6 +111,9 @@ body,
   .conteiner-flex-logo {
     display: block;
     
+  }
+  .dados{
+    width: 50%;
   }
   .contato{
     font-size: 13px;
