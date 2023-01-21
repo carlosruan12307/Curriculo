@@ -95,7 +95,7 @@ width: 100%;
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px)  {
   h1 {
     font-size: 15px;
   }
@@ -113,7 +113,7 @@ width: 100%;
     
   }
   .dados{
-    width: 50%;
+    width: 40%;
   }
   .contato{
     font-size: 13px;
