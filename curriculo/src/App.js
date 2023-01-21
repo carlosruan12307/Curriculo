@@ -65,8 +65,51 @@ function App() {
             projetos full stack, entao ainda nao consegui disponibilizar eles
             (devido a disponibilizaçao do backend), mas estou no processo. Eu
             gosto bastante de ver cursos no youtube e em algumas plataformas,
-            atualmente estou estudando spring security na udemy.{" "}
+            atualmente estou estudando spring security na udemy.
           </p>
+          <p>
+            {" "}
+            Aqui alguns projetos principais que eu finalizei a pouco tempo:
+          </p>
+          <ul className="mt-3">
+            <li>
+              tela de login tema do brasil (epoca da copa) -&gt;{" "}
+              <a href="https://github.com/carlosruan12307/Tela-Simples-Login-Brasil-">
+                https://github.com/carlosruan12307/Tela-Simples-Login-Brasil-
+              </a>
+            </li>
+            <li>
+              jogo da memoria simples com javascript e DOM -&gt;{" "}
+              <a href="https://github.com/carlosruan12307/JogoMemoria">
+                https://github.com/carlosruan12307/JogoMemoria
+              </a>
+            </li>
+            <li>
+              configuraçao do basic authentication com spring -&gt;{" "}
+              <a href="https://github.com/carlosruan12307/Spring-Security-Finalizado">
+                https://github.com/carlosruan12307/Spring-Security-Finalizado
+              </a>{" "}
+            </li>
+            <li>
+              authorization server do fluxo authorization code do protocolo
+              Oauth2(spring) -&gt;{" "}
+              <a href="https://github.com/carlosruan12307/Oauth2-1.0-ServerInDatabase">
+                https://github.com/carlosruan12307/Oauth2-1.0-ServerInDatabase
+              </a>
+            </li>
+            <li>
+              projeto criado da minha imaginaçao (site de noticias) -&gt;{" "}
+              <a href="https://github.com/carlosruan12307/ProjetoDoZero">
+                https://github.com/carlosruan12307/ProjetoDoZero
+              </a>
+            </li>
+            <li>
+              simulando netflix -&gt;{" "}
+              <a href="https://github.com/carlosruan12307/banzaiflix">
+                https://github.com/carlosruan12307/banzaiflix
+              </a>
+            </li>
+          </ul>
         </section>
         <section className="habilidades">
           <h2 className="habilidades-text">Habilidades</h2>
@@ -82,7 +125,7 @@ function App() {
             <li>Git/Github</li>
             <li>Sql</li>
             <li>MySql</li>
-            </ul>
+          </ul>
         </section>
       </div>
     </div>
