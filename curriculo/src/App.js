@@ -35,22 +35,54 @@ function App() {
           <h1>Formacação Acadêmica</h1>
           <div className="conteiner-flex-logo">
             <img alt="" className="logo-unifor me-3" src={unifor}></img>
-            <h5 className="mt-2 text-white">Unifor -&gt; 2019 - Atual</h5>
+            <h5 className="mt-2 text-white">
+              Unifor -&gt; Ciencia Da Computacao -&gt; 2019 - Atual
+            </h5>
           </div>
         </section>
       </div>
-      <div className="aprofundado border border-secondary">
-        {/* <section className="sobre-min">
-        <h2 className="sobre-min-text">SOBRE MIM</h2>
-        <p >Ola, meu nome é Ruan, e atualmente estou estudando programação e procura de uma oportunidade para conseguir progredir com minha carreira. 
-          
-          Eu comecei a programar sem muito entusiasmo ate conhecer a area de Desenvolvimento Web,
-           que eu me simplesmente amei no primeiro momento. 
-           Desde entao, sempre estou criando algum projeto pessoal para desenvolver minhas habilidades. 
-           Eu sempre gostei de aprender coisas novas, e a area de programação, assim como as diversas tecnologias que estao sendo criadas a todo momento nao poderiam ser o melhor palco para minha curiosidade.</p>
-        </section> */}
-        <section className="Experiencias">
-
+      <div className="aprofundado border border-danger">
+        <section className="sobre-min">
+          <h2 className="sobre-min-text">SOBRE MIM</h2>
+          <p>
+            Ola, meu nome é Ruan, e atualmente estou estudando programação e
+            procura de uma oportunidade para conseguir progredir com minha
+            carreira. Eu comecei a programar sem muito entusiasmo ate conhecer a
+            area de Desenvolvimento Web, que eu simplesmente amei no primeiro
+            momento. Desde entao, sempre estou criando algum projeto pessoal
+            para desenvolver minhas habilidades. Eu sempre gostei de aprender
+            coisas novas, e a area de programação, assim como as diversas
+            tecnologias que estao sendo criadas a todo momento nao poderiam ser
+            o melhor palco para minha curiosidade.
+          </p>
+        </section>
+        <section className="experiencias">
+          <h2 className="experiencias-text">Experiencias</h2>
+          <p>
+            Estou tentando agora iniciar minha carreira, mas sempre estou
+            desenvolvendo projetos pessoais la no github. Como eu gosto bastante
+            de ver todo o sistema em funcionamento, normalmente eu desenvolvo
+            projetos full stack, entao ainda nao consegui disponibilizar eles
+            (devido a disponibilizaçao do backend), mas estou no processo. Eu
+            gosto bastante de ver cursos no youtube e em algumas plataformas,
+            atualmente estou estudando spring security na udemy.{" "}
+          </p>
+        </section>
+        <section className="habilidades">
+          <h2 className="habilidades-text">Habilidades</h2>
+          <ul className="lista-habilidades">
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Boostrap</li>
+            <li>Spring , Spring Security</li>
+            <li>Manipulação DOM</li>
+            <li>Jquery</li>
+            <li>Git/Github</li>
+            <li>Sql</li>
+            <li>MySql</li>
+            </ul>
         </section>
       </div>
     </div>
